@@ -3,3 +3,5 @@ alias t="bin/rails test"
 alias x="bin/rails test -n /xxx/"
 alias t-all="TEST_ALL_FEATURES=1 bin/rails test"
 alias c="clear"
+
+git config pull.rebase true   # rebase
