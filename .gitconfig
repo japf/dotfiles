@@ -1,0 +1,9 @@
+[user]
+	name = Jeremy Alles
+	email = japf@github.com
+
+[push]
+	default = simple
+	
+[pull]
+	rebase = false
