@@ -6,6 +6,6 @@ alias c="clear"
 alias p="git push"
 alias mig="bin/rake db:migrate db:test:prepare"
 alias j="bin/npm run jest -- issues"
-alias r="script/setup-issues-react"
+alias ff="script/dx/heal --everything"
 
 echo "machine goproxy.githubapp.com login nobody password $GITHUB_TOKEN" >> $HOME/.netrc
