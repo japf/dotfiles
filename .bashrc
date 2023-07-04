@@ -9,5 +9,3 @@ alias j="bin/npm run jest -- issues"
 alias ff="script/dx/heal --everything"
 
 git config fetch.showForcedUpdates false
-
-echo "machine goproxy.githubapp.com login nobody password $GITHUB_TOKEN" >> $HOME/.netrc
