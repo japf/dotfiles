@@ -12,5 +12,6 @@ alias umt="MULTI_TENANT_ENTERPRISE=1 bin/rails test -n /uuu/"
 
 alias c="clear"
 alias mig="bin/rake db:migrate db:test:prepare"
+alias fgitpush="SKIP_ALL_PREPUSH_CHECKS=1 git push"
 
 git config fetch.showForcedUpdates false
